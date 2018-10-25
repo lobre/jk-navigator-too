@@ -76,8 +76,8 @@ class Interface
 
   eventToAction: do ->
     mapping =
-      "74": "down"  # "j"
-      "75": "up"    # "k"
+      "84": "down"  # "t"
+      "83": "up"    # "s"
       "13": "enter" # "<Enter>"
 
     (event) -> mapping[event.keyCode]
